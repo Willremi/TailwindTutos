@@ -3,9 +3,16 @@
 @tailwind utilities;
 
 @layer base {
-
+    h2 {
+        @apply text-blue-800 text-xl my-3
+    }
+    p {
+        @apply text-gray-800 text-sm
+    }
 }
 
 @layer components {
-
+    .card {
+        @apply m-5 shadow-lg rounded-lg overflow-hidden
+    }
 }

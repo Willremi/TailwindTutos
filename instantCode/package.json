@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "postcss -w src/tailwind.css -o public/style.css"
+    "build:dev": "postcss -w src/tailwind.css -o public/style.css"
   },
   "keywords": [],
   "author": "",
