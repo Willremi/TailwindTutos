@@ -7,10 +7,28 @@
     <title>Tailwind Tuto n°2</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-   <h1 class="text-3xl text-red-600 text-center my-2">Tailwind avec script persos</h1>
-   <div class="container max-w-md mx-auto">
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo tempora laborum quae facilis sint architecto quibusdam quam vitae temporibus! Voluptate.</p>
+<body class="m-3">
+   <h1 class="text-3xl text-red-600 text-center">Tailwind avec script persos</h1>
+   <section class="container border-2 border-blue-500 mx-auto">
+    <div class="md:columns-2 lg:columns-4 m-2">
+        <section class="border-2 border-red-500">Section 1</section>
+        <section class="border-2 border-red-500">Section 2</section>
+        <section class="border-2 border-red-500">Section 3</section>
+        <section class="border-2 border-red-500">Section 4</section>
+    </div>
+   </section>
+   <h2 class="text-2xl uppercase underline font-bold my-3 text-center">Sous titre</h2>
+   <div class="max-w-sm border border-gray-200 shadow-lg rounded-lg my-3 mx-auto">
+        <a href="#">
+            <img src="images/tailwind.png" alt="tailwind" class="rounded-t-lg">
+        </a>
+        <div class="p-5">
+            <a href="#">
+                <h2 class="mb-2 text-2xl font-bold text-gray-700">Titre de l'article</h2>
+            </a>
+            <p class="mb-3 text-gray-700">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam magni similique autem praesentium perspiciatis cum laboriosam error, itaque quas illo est consequuntur voluptates voluptatibus explicabo!</p>
+            <a href="#" class="inline-flex items-center py-2 px-3 bg-blue-700 rounded-lg text-sm font-medium text-white hover:bg-blue-900">Lire la suite</a>
+        </div>
    </div>
 </body>
 </html>
